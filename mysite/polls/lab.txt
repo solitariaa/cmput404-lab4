@@ -1,0 +1,14 @@
+Q1: https://github.com/solitariaa/cmput404-lab4.git
+Q2: The web says "The install work successfully! Congratulations!"
+Q3: When I navigate to "/", it will show 404 and give some URL patterns.
+    When I navigate to "/Poll", it will show "Hello, world. You're at the polls index."
+Q4: Makemigrations is responsible for packing up your model changes into individual migration files, and migrate is responsible for applying those to your database.
+Q5: After log in I can see two groups, which are authentication and authrization, polls seperately, in the authentication, there's groups and users which I can add/change, in the polls, there's choices and questions which I can add/change.
+Q6: /polls/38/: You're looking at question 38.
+    /polls/38/results/: You're looking at the results of question 38.
+    /polls/38/vote/: You're voting on question 38.
+    If I put a string instand of number, the web will respond a 404 error, to fix this problem, we need to change <int:question_id> to <str:question_id>.
+Q7: It will be harder to change the URLs and easier to direct to the wrong page.
+Q8: Save time to duplicate similiar view and template. Make the codes clearer.
+    When you want to achieve some basic tasks like show a list, add/delete a entity, you can use generic views;
+    when you want to perform some special/specific functions, you shouldn't use generic view.
